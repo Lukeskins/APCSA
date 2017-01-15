@@ -5,9 +5,13 @@
 
 __Decimal to Binary:__
 1. Find the largest multiple of eight in the number.
+
 2. Find the largest 8-bit digit in the decimal number.
+
 3. Write all 8-bit numbers starting with the largest 8-bit digit.
+
 4. For the numbers that go into the remaining amount of the decimal number, write a one.  For the numbers that do not go into it, write a zero.
+
 
 ```
 e.g. 279
@@ -33,9 +37,13 @@ Largest 8-bit digit in 279 is 256
 
 __Decimal to Hexadecimal:__
 1. Find how many times 16<sup>decimal place</sup> goes into the number.  Write that number.
+
 2. Find the remainder of the previous division.  If it is greater than 15, continue to divide by 16<sup>decimal place</sup>.  If it is less than or equal to 15, write the appropriate hex number.
- * 0 through 9 are all written the same
- * 10 is A, 11 is B, 12 is C, 13 is D, 14 is E, 15 is F
+
+ * 0 through 9 are all written the same.
+
+ * 10 is A, 11 is B, 12 is C, 13 is D, 14 is E, 15 is F.
+
 
 ```
 e.g. 74
@@ -54,8 +62,11 @@ Write remainder which is 10 as A.
 __Binary to Decimal:__
 
 1. Write out binary number.  
+
 2. From the right, right the octal numbers according to length.
+
 3. If it is a zero, do not add to the sum.  If it is a one, add the octal number to the sum.
+
 
 ```
 e.g. 100101
